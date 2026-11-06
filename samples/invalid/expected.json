@@ -1,0 +1,86 @@
+[
+  {
+    "file": "samples/invalid/extra-balance-column.csv",
+    "must_fail": "QBO-001",
+    "what_is_wrong": "a fourth Account column on a 3-column file",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/amount-in-headers.csv",
+    "must_fail": "QBO-002",
+    "what_is_wrong": "headers say Credit Amount and Debit Amount",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/zeros-not-blank.csv",
+    "must_fail": "QBO-003",
+    "what_is_wrong": "0.00 in the empty Credit or Debit cell",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/mixed-date-formats.csv",
+    "must_fail": "QBO-004",
+    "what_is_wrong": "one row in YYYY-MM-DD, the rest MM/DD/YYYY",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/weekday-in-date.csv",
+    "must_fail": "QBO-005",
+    "what_is_wrong": "dates like 07/02/2026 THU",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/too-big-and-too-long.csv",
+    "must_fail": "QBO-006",
+    "what_is_wrong": "over 350 KB and over 1,000 lines (also fails QBO-007)",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/currency-symbols-and-parentheses.csv",
+    "must_fail": "QBO-010",
+    "what_is_wrong": "amounts like $1,250.00 and ($612.30)",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/both-credit-and-debit.csv",
+    "must_fail": "QBO-011",
+    "what_is_wrong": "a row with both Credit and Debit filled",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/impossible-date.csv",
+    "must_fail": "QBO-012",
+    "what_is_wrong": "02/30/2026 does not exist",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/missing-row.csv",
+    "must_fail": "QBO-013",
+    "what_is_wrong": "one transaction dropped; rows no longer reach the printed closing balance",
+    "statement": "samples/statements/harbor-point-checking-2026-07.statement.json"
+  },
+  {
+    "file": "samples/invalid/balance-line-as-transaction.csv",
+    "must_fail": "QBO-015",
+    "what_is_wrong": "the opening balance line imported as a deposit",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/number-as-description.csv",
+    "must_fail": "QBO-009",
+    "what_is_wrong": "a description that is only a reference number (warning)",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/row-read-twice.csv",
+    "must_fail": "QBO-014",
+    "what_is_wrong": "a row repeated, as when a page break is read twice (warning)",
+    "statement": null
+  },
+  {
+    "file": "samples/invalid/signs-reversed.csv",
+    "must_fail": "QBO-013",
+    "what_is_wrong": "every sign flipped, as some card exports do; balance proof catches it",
+    "statement": "samples/statements/harbor-point-checking-2026-07.statement.json"
+  }
+]

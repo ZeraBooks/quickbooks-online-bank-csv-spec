@@ -1,0 +1,17 @@
+{
+  "bank": "Northfield National Bank",
+  "business": "Brightwater Landscaping Inc",
+  "account_last4": "7718",
+  "account_type": "savings",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "opening_balance": "41000.00",
+  "closing_balance": "50352.70",
+  "transactions": 7,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/northfield-savings-2026-07.csv",
+    "samples/4-column/northfield-savings-2026-07.csv"
+  ],
+  "fictional": true
+}

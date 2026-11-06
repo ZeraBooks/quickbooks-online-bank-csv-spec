@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/quickbooks-online-bank-csv-spec/schema/qbo-bank-csv-3col.schema.json",
+  "title": "QuickBooks Online bank CSV, 3-column layout (one row)",
+  "description": "One transaction row of a CSV file for QuickBooks Online's manual bank upload, 3-column layout: Date, Description, Amount. Money out is negative, money in is positive. Header row must read exactly Date,Description,Amount.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["Date", "Description", "Amount"],
+  "properties": {
+    "Date": {
+      "type": "string",
+      "description": "Transaction date. One format for the whole file. This spec uses MM/DD/YYYY (U.S.) or DD/MM/YYYY; no weekday text.",
+      "pattern": "^(0[1-9]|[12][0-9]|3[01]|[1-9])/(0[1-9]|[12][0-9]|3[01]|[1-9])/[0-9]{4}$"
+    },
+    "Description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "description": "Payee or memo text as printed on the statement. Not only digits."
+    },
+    "Amount": {
+      "type": "string",
+      "description": "Signed amount, digits and a decimal point only. No currency symbol, thousands separator or parentheses. Not zero.",
+      "pattern": "^-?(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$",
+      "not": {"pattern": "^-?0(\\.0{1,2})?$"}
+    }
+  }
+}

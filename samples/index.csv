@@ -1,0 +1,25 @@
+sample,bank,business,account_type,account_last4,period_start,period_end,opening_balance,closing_balance,transactions,date_format
+harbor-point-checking-2026-07,Harbor Point Savings Bank,Juniper Lane Bakery LLC,checking,4471,2026-07-01,2026-07-31,8214.37,9771.44,18,MM/DD/YYYY
+harbor-point-checking-2026-08,Harbor Point Savings Bank,Juniper Lane Bakery LLC,checking,4471,2026-08-01,2026-08-31,9771.44,15486.82,22,MM/DD/YYYY
+harbor-point-checking-2026-09,Harbor Point Savings Bank,Juniper Lane Bakery LLC,checking,4471,2026-09-01,2026-09-30,15486.82,33712.43,22,MM/DD/YYYY
+cedar-valley-checking-2026-07,Cedar Valley Credit Union,Okafor Family Dental PC,checking,0932,2026-07-01,2026-07-31,23650.10,34687.43,23,MM/DD/YYYY
+cedar-valley-checking-2026-08,Cedar Valley Credit Union,Okafor Family Dental PC,checking,0932,2026-08-01,2026-08-31,34687.43,45452.19,28,MM/DD/YYYY
+cedar-valley-checking-2026-09,Cedar Valley Credit Union,Okafor Family Dental PC,checking,0932,2026-09-01,2026-09-30,45452.19,62228.39,18,MM/DD/YYYY
+northfield-savings-2026-07,Northfield National Bank,Brightwater Landscaping Inc,savings,7718,2026-07-01,2026-07-31,41000.00,50352.70,7,MM/DD/YYYY
+northfield-savings-2026-08,Northfield National Bank,Brightwater Landscaping Inc,savings,7718,2026-08-01,2026-08-31,50352.70,56652.29,4,MM/DD/YYYY
+northfield-savings-2026-09,Northfield National Bank,Brightwater Landscaping Inc,savings,7718,2026-09-01,2026-09-30,56652.29,64436.21,8,MM/DD/YYYY
+prairie-trust-checking-2026-07,Prairie Trust Bank,Redline Freight Co,checking,2256,2026-07-01,2026-07-31,15402.88,30759.84,18,MM/DD/YYYY
+prairie-trust-checking-2026-08,Prairie Trust Bank,Redline Freight Co,checking,2256,2026-08-01,2026-08-31,30759.84,63711.59,28,MM/DD/YYYY
+prairie-trust-checking-2026-09,Prairie Trust Bank,Redline Freight Co,checking,2256,2026-09-01,2026-09-30,63711.59,73625.37,26,MM/DD/YYYY
+lakeshore-checking-2026-07,Lakeshore Community Bank,Marisol Vega CPA,checking,6603,2026-07-01,2026-07-31,5120.45,7458.28,20,MM/DD/YYYY
+lakeshore-checking-2026-08,Lakeshore Community Bank,Marisol Vega CPA,checking,6603,2026-08-01,2026-08-31,7458.28,12688.65,24,MM/DD/YYYY
+lakeshore-checking-2026-09,Lakeshore Community Bank,Marisol Vega CPA,checking,6603,2026-09-01,2026-09-30,12688.65,18261.56,23,MM/DD/YYYY
+summit-card-2026-07,Summit Card Services,Juniper Lane Bakery LLC,credit_card,9014,2026-07-01,2026-07-31,1873.22,5672.80,18,MM/DD/YYYY
+summit-card-2026-08,Summit Card Services,Juniper Lane Bakery LLC,credit_card,9014,2026-08-01,2026-08-31,5672.80,8193.30,26,MM/DD/YYYY
+summit-card-2026-09,Summit Card Services,Juniper Lane Bakery LLC,credit_card,9014,2026-09-01,2026-09-30,8193.30,7593.57,30,MM/DD/YYYY
+granite-card-2026-07,Granite Bank Card,Redline Freight Co,credit_card,3380,2026-07-01,2026-07-31,6240.00,3506.01,17,MM/DD/YYYY
+granite-card-2026-08,Granite Bank Card,Redline Freight Co,credit_card,3380,2026-08-01,2026-08-31,3506.01,7095.44,20,MM/DD/YYYY
+granite-card-2026-09,Granite Bank Card,Redline Freight Co,credit_card,3380,2026-09-01,2026-09-30,7095.44,4130.19,18,MM/DD/YYYY
+thistle-current-2026-07,"Thistle & Moor Bank (fictional, DD/MM/YYYY example)",Fenwick Joinery Ltd,checking,5129,2026-07-01,2026-07-31,3912.60,9585.01,19,DD/MM/YYYY
+thistle-current-2026-08,"Thistle & Moor Bank (fictional, DD/MM/YYYY example)",Fenwick Joinery Ltd,checking,5129,2026-08-01,2026-08-31,9585.01,4066.69,28,DD/MM/YYYY
+thistle-current-2026-09,"Thistle & Moor Bank (fictional, DD/MM/YYYY example)",Fenwick Joinery Ltd,checking,5129,2026-09-01,2026-09-30,4066.69,13738.19,20,DD/MM/YYYY

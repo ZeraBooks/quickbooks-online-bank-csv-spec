@@ -1,0 +1,17 @@
+{
+  "bank": "Prairie Trust Bank",
+  "business": "Redline Freight Co",
+  "account_last4": "2256",
+  "account_type": "checking",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "opening_balance": "30759.84",
+  "closing_balance": "63711.59",
+  "transactions": 28,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/prairie-trust-checking-2026-08.csv",
+    "samples/4-column/prairie-trust-checking-2026-08.csv"
+  ],
+  "fictional": true
+}

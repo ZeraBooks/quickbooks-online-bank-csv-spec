@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "QuickBooks Online Bank CSV Spec"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/pdf-to-qbo-converter"
+repository-code: "https://github.com/ZeraBooks/quickbooks-online-bank-csv-spec"
+license: MIT
+abstract: "Field spec, JSON Schemas, fictional sample CSV files and a validator for the 3-column and 4-column CSV layouts QuickBooks Online takes for bank transaction uploads."
+keywords:
+  - quickbooks-online
+  - csv
+  - bank-transactions
+  - bookkeeping
+  - validator

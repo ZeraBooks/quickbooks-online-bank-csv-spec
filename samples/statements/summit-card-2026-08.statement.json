@@ -1,0 +1,17 @@
+{
+  "bank": "Summit Card Services",
+  "business": "Juniper Lane Bakery LLC",
+  "account_last4": "9014",
+  "account_type": "credit_card",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "opening_balance": "5672.80",
+  "closing_balance": "8193.30",
+  "transactions": 26,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/summit-card-2026-08.csv",
+    "samples/4-column/summit-card-2026-08.csv"
+  ],
+  "fictional": true
+}

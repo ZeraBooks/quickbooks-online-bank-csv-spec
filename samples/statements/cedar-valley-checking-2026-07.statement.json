@@ -1,0 +1,17 @@
+{
+  "bank": "Cedar Valley Credit Union",
+  "business": "Okafor Family Dental PC",
+  "account_last4": "0932",
+  "account_type": "checking",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "opening_balance": "23650.10",
+  "closing_balance": "34687.43",
+  "transactions": 23,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/cedar-valley-checking-2026-07.csv",
+    "samples/4-column/cedar-valley-checking-2026-07.csv"
+  ],
+  "fictional": true
+}

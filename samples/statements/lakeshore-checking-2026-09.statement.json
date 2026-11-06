@@ -1,0 +1,17 @@
+{
+  "bank": "Lakeshore Community Bank",
+  "business": "Marisol Vega CPA",
+  "account_last4": "6603",
+  "account_type": "checking",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "opening_balance": "12688.65",
+  "closing_balance": "18261.56",
+  "transactions": 23,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/lakeshore-checking-2026-09.csv",
+    "samples/4-column/lakeshore-checking-2026-09.csv"
+  ],
+  "fictional": true
+}

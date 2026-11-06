@@ -1,0 +1,17 @@
+{
+  "bank": "Granite Bank Card",
+  "business": "Redline Freight Co",
+  "account_last4": "3380",
+  "account_type": "credit_card",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "opening_balance": "7095.44",
+  "closing_balance": "4130.19",
+  "transactions": 18,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/granite-card-2026-09.csv",
+    "samples/4-column/granite-card-2026-09.csv"
+  ],
+  "fictional": true
+}

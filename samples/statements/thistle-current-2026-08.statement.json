@@ -1,0 +1,17 @@
+{
+  "bank": "Thistle & Moor Bank (fictional, DD/MM/YYYY example)",
+  "business": "Fenwick Joinery Ltd",
+  "account_last4": "5129",
+  "account_type": "checking",
+  "period_start": "2026-08-01",
+  "period_end": "2026-08-31",
+  "opening_balance": "9585.01",
+  "closing_balance": "4066.69",
+  "transactions": 28,
+  "date_format": "DD/MM/YYYY",
+  "csv_files": [
+    "samples/3-column/thistle-current-2026-08.csv",
+    "samples/4-column/thistle-current-2026-08.csv"
+  ],
+  "fictional": true
+}

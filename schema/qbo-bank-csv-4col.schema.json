@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/quickbooks-online-bank-csv-spec/schema/qbo-bank-csv-4col.schema.json",
+  "title": "QuickBooks Online bank CSV, 4-column layout (one row)",
+  "description": "One transaction row of a CSV file for QuickBooks Online's manual bank upload, 4-column layout: Date, Description, Credit, Debit. Credit is money in, Debit is money out, both positive. Exactly one of the two is filled; the other is blank, never 0. Header row must read exactly Date,Description,Credit,Debit.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["Date", "Description", "Credit", "Debit"],
+  "properties": {
+    "Date": {
+      "type": "string",
+      "pattern": "^(0[1-9]|[12][0-9]|3[01]|[1-9])/(0[1-9]|[12][0-9]|3[01]|[1-9])/[0-9]{4}$"
+    },
+    "Description": {"type": "string", "minLength": 1, "maxLength": 256},
+    "Credit": {"type": "string", "pattern": "^$|^(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$"},
+    "Debit": {"type": "string", "pattern": "^$|^(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$"}
+  },
+  "oneOf": [
+    {"properties": {"Credit": {"minLength": 1, "not": {"pattern": "^0(\\.0{1,2})?$"}}, "Debit": {"maxLength": 0}}},
+    {"properties": {"Debit": {"minLength": 1, "not": {"pattern": "^0(\\.0{1,2})?$"}}, "Credit": {"maxLength": 0}}}
+  ]
+}

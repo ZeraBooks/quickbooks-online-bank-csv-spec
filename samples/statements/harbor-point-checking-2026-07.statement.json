@@ -1,0 +1,17 @@
+{
+  "bank": "Harbor Point Savings Bank",
+  "business": "Juniper Lane Bakery LLC",
+  "account_last4": "4471",
+  "account_type": "checking",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "opening_balance": "8214.37",
+  "closing_balance": "9771.44",
+  "transactions": 18,
+  "date_format": "MM/DD/YYYY",
+  "csv_files": [
+    "samples/3-column/harbor-point-checking-2026-07.csv",
+    "samples/4-column/harbor-point-checking-2026-07.csv"
+  ],
+  "fictional": true
+}
