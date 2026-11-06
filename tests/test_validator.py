@@ -80,8 +80,11 @@ class Rules(unittest.TestCase):
     def test_cli_exit_codes(self):
         good = os.path.join(ROOT, "samples", "3-column", "lakeshore-checking-2026-08.csv")
         bad = os.path.join(ROOT, "samples", "invalid", "weekday-in-date.csv")
-        self.assertEqual(q.main([good]), 0)
-        self.assertEqual(q.main([bad]), 1)
+        import contextlib
+        import io
+        with contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(q.main([good]), 0)
+            self.assertEqual(q.main([bad]), 1)
 
 
 if __name__ == "__main__":
