@@ -98,7 +98,7 @@ All banks, businesses and amounts are made up. `scripts/generate_samples.py` wri
 
 Most bank CSV trouble starts with a PDF. Copying rows out of a PDF loses minus signs, splits wrapped descriptions into two rows and picks up the balance line as a transaction.
 
-[ZeraBooks Convert](https://www.zerabooks.com/pdf-to-qbo-converter) reads the PDF (up to 500 pages per file), checks each account against the opening, running and closing balances printed on it, and only marks a statement Proven when it ties to the cent. The **QuickBooks-ready** download writes this repo's 3-column layout with US dates (MM/DD/YYYY), which you then upload in QuickBooks Online's bank transactions screen. It writes CSV and Excel files, not .qbo files, and it doesn't connect to QuickBooks. Pricing is on [zerabooks.com/pricing](https://www.zerabooks.com/pricing): one plan with 1,000 pages a month, $79 a month billed annually or $149 month to month, with a 7-day trial.
+[ZeraBooks Convert](https://www.zerabooks.com/pdf-to-qbo-converter) reads the PDF (up to 500 pages per file), checks each account against the opening, running and closing balances printed on it, and only marks a statement Proven when it ties to the cent. The **QuickBooks-ready** download writes this repo's 3-column layout with US dates (MM/DD/YYYY), which you then upload in QuickBooks Online's bank transactions screen. It writes CSV and Excel files, not .qbo files, and it doesn't connect to QuickBooks. Pricing is on zerabooks.com/pricing: one plan with 1,000 pages a month, $79 a month billed annually or $149 month to month, with a 7-day trial.
 
 Whatever tool makes your CSV, run the checker on it first. It takes a second.
 
